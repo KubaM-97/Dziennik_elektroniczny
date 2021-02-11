@@ -1,0 +1,686 @@
+{
+    "students": [
+        {
+            "id": 1,
+            "lastName": "Anon",
+            "firstName": "Aleksandra",
+            "marks": [4, 2, 3, 1],
+            "weights": [1, 1, 2, 3],
+            "descriptions": ["Praca Domowa", "Praca Domowa", "Kartkówka", "Klasówka"],
+            "dates": ["02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00"],
+            "pesel": 90010100001,
+            "street": {
+                "name": "Sezamkowa",
+                "nr": 1,
+                "flat": 1,
+                "postcode": "00-001",
+                "city": "Warszawa"
+            },
+            "phone": 111222333,
+            "email": "aleksandra.anon@gmail.com",
+            "mother": {
+                "firstName": "Agnieszka",
+                "lastName": "Anon",
+                "phone": 111222334,
+                "email": "agnieszka.anon@gmail.com"
+            },
+            "father": {
+                "firstName": "Adam",
+                "lastName": "Anon",
+                "phone": 111222335,
+                "email": "adam.anon@gmail.com"
+            }
+    },
+        {
+            "id": 2,
+            "lastName": "Bosak",
+            "firstName": "Bartłomiej",
+            "marks": [5, 5, 5, 5],
+            "weights": [1, 1, 2, 3],
+            "descriptions": ["Praca Domowa", "Praca Domowa", "Kartkówka", "Klasówka"],
+            "dates": ["02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00"],
+            "pesel": 90010100002,
+            "street": {
+                "name": "Sezamkowa",
+                "nr": 2,
+                "flat": 2,
+                "postcode": "00-002",
+                "city": "Warszawa"
+            },
+            "phone": 222333444,
+            "email": "bartlomiej.bosak@gmail.com",
+            "mother": {
+                "firstName": "Barbara",
+                "lastName": "Bosak",
+                "phone": 222333445,
+                "email": "barbara.bosak@gmail.com"
+            },
+            "father": {
+                "firstName": "Błażej",
+                "lastName": "Bosak",
+                "phone": 222333446,
+                "email": "blazej.bosak@gmail.com"
+            }
+    },
+        {
+            "id": 3,
+            "lastName": "Czosnek",
+            "firstName": "Czesław",
+            "marks": [1, 2, 1, 1],
+            "weights": [1, 1, 2, 3],
+            "descriptions": ["Praca Domowa", "Praca Domowa", "Kartkówka", "Klasówka"],
+            "dates": ["02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00"],
+            "pesel": 90010100004,
+            "street": {
+                "name": "Sezamkowa",
+                "nr": 3,
+                "flat": 3,
+                "postcode": "00-003",
+                "city": "Warszawa"
+            },
+            "phone": 333444555,
+            "email": "czeslaw.czosnek@gmail.com",
+            "mother": {
+                "firstName": "Cecylia",
+                "lastName": "Czosnek",
+                "phone": 333444556,
+                "email": "cecylia.czosnek@gmail.com"
+            },
+            "father": {
+                "firstName": "Cezary",
+                "lastName": "Czosnek",
+                "phone": 333444556,
+                "email": "cezary.czosnek@gmail.com"
+            }
+        },
+        {
+            "id": 4,
+            "lastName": "Dziurman",
+            "firstName": "Daria",
+            "marks": [2, 2, 3, 2],
+            "weights": [1, 1, 2, 3],
+            "descriptions": ["Praca Domowa", "Praca Domowa", "Kartkówka", "Klasówka"],
+            "dates": ["02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00"],
+            "pesel": 90010100003,
+            "street": {
+                "name": "Sezamkowa",
+                "nr": 4,
+                "flat": 4,
+                "postcode": "00-004",
+                "city": "Warszawa"
+            },
+            "phone": 444555676,
+            "email": "daria.dziurman@gmail.com",
+            "mother": {
+                "firstName": "Dominika",
+                "lastName": "Dziurman",
+                "phone": 444555677,
+                "email": "dominika.dziurman@gmail.com"
+            },
+            "father": {
+                "firstName": "Damian",
+                "lastName": "Dziurman",
+                "phone": 444555678,
+                "email": "damian.dziurman@gmail.com"
+            }
+        },
+        {
+            "id": 5,
+            "lastName": "Eliksir",
+            "firstName": "Eryk",
+            "marks": [4, 5, 4, 4],
+            "weights": [1, 2, 3, 2],
+            "descriptions": ["Praca Domowa", "Praca Domowa", "Klasówka", "Kartkówka"],
+            "dates": ["02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00"],
+            "pesel": 90010100006,
+            "street": {
+                "name": "Sezamkowa",
+                "nr": 5,
+                "flat": 5,
+                "postcode": "00-005",
+                "city": "Warszawa"
+            },
+            "phone": 555676777,
+            "email": "eryk.eliksir@gmail.com",
+            "mother": {
+                "firstName": "Elwira",
+                "lastName": "Eliksir",
+                "phone": 555676778,
+                "email": "elwira.eliksir@gmail.com"
+            },
+            "father": {
+                "firstName": "Eustachy",
+                "lastName": "Eliksir",
+                "phone": 555676779,
+                "email": "eustachy.eliksir@gmail.com"
+            }
+        },
+        {
+            "id": 6,
+            "lastName": "Figurski",
+            "firstName": "Franciszek",
+            "marks": [3, 4, 5],
+            "weights": [1, 1, 3],
+            "descriptions": ["Praca Domowa", "Praca Domowa", "Klasówka"],
+            "dates": ["02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00"],
+            "pesel": 90010100008,
+            "street": {
+                "name": "Sezamkowa",
+                "nr": 6,
+                "flat": 6,
+                "postcode": "00-006",
+                "city": "Warszawa"
+            },
+            "phone": 676777888,
+            "email": "franciszek.figurski@gmail.com",
+            "mother": {
+                "firstName": "Fiona",
+                "lastName": "Figurska",
+                "phone": 676777889,
+                "email": "fiona.figurska@gmail.com"
+            },
+            "father": {
+                "firstName": "Filemon",
+                "lastName": "Figurski",
+                "phone": 676777890,
+                "email": "filemon.figurski@gmail.com"
+            }
+        },
+        {
+            "id": 7,
+            "lastName": "Gołębiowska",
+            "firstName": "Gabrysia",
+            "marks": [5, 5, 3, 5],
+            "weights": [1, 1, 2, 3],
+            "descriptions": ["Praca Domowa", "Praca Domowa", "Kartkówka", "Klasówka"],
+            "dates": ["02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00"],
+            "pesel": 90010100005,
+            "street": {
+                "name": "Sezamkowa",
+                "nr": 7,
+                "flat": 7,
+                "postcode": "00-007",
+                "city": "Warszawa"
+            },
+            "phone": 777888999,
+            "email": "gabrysia.gołębiowska@gmail.com",
+            "mother": {
+                "firstName": "Grażyna",
+                "lastName": "Gołębiowska",
+                "phone": 777888990,
+                "email": "grazyna.golebiowska@gmail.com"
+            },
+            "father": {
+                "firstName": "Grzegorz",
+                "lastName": "Gołębiowski",
+                "phone": 777888991,
+                "email": "grzegorz.golebiowski@gmail.com"
+            }
+        },
+        {
+            "id": 8,
+            "lastName": "Helikopterek",
+            "firstName": "Henryk",
+            "marks": [3, 3, 2, 3],
+            "weights": [1, 1, 2, 3],
+            "descriptions": ["Praca Domowa", "Praca Domowa", "Kartkówka", "Klasówka"],
+            "dates": ["02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00"],
+            "pesel": 90010100010,
+            "street": {
+                "name": "Sezamkowa",
+                "nr": 8,
+                "flat": 8,
+                "postcode": "00-008",
+                "city": "Warszawa"
+            },
+            "phone": 888999000,
+            "email": "henryk.helikopterek@gmail.com",
+            "mother": {
+                "firstName": "Halina",
+                "lastName": "Helikopterek",
+                "phone": 888999001,
+                "email": "halina.helikopterek@gmail.com"
+            },
+            "father": {
+                "firstName": "Hubert",
+                "lastName": "Helikopterek",
+                "phone": 888999002,
+                "email": "hubert.helikopterek@gmail.com"
+            }
+        },
+        {
+            "id": 9,
+            "lastName": "Irytek",
+            "firstName": "Igor",
+            "marks": [1, 1, 2, 2],
+            "weights": [1, 1, 2, 3],
+            "descriptions": ["Praca Domowa", "Praca Domowa", "Kartkówka", "Klasówka"],
+            "dates": ["02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00"],
+            "pesel": 90010100012,
+            "street": {
+                "name": "Sezamkowa",
+                "nr": 9,
+                "flat": 9,
+                "postcode": "00-009",
+                "city": "Warszawa"
+            },
+            "phone": 999000111,
+            "email": "igor.irytek@gmail.com",
+            "mother": {
+                "firstName": "Iwona",
+                "lastName": "Irytek",
+                "phone": 999000112,
+                "email": "iwona.irytek@gmail.com"
+            },
+            "father": {
+                "firstName": "Ignacy",
+                "lastName": "Irytek",
+                "phone": 999000113,
+                "email": "ignacy.irytek@gmail.com"
+            }
+        },
+        {
+            "id": 10,
+            "lastName": "Jastrzębski",
+            "firstName": "Jacek",
+            "marks": [2, 3, 5, 3],
+            "weights": [1, 1, 2, 3],
+            "descriptions": ["Praca Domowa", "Praca Domowa", "Kartkówka", "Klasówka"],
+            "dates": ["02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00"],
+            "pesel": 90010100014,
+            "street": {
+                "name": "Sezamkowa",
+                "nr": 10,
+                "flat": 10,
+                "postcode": "00-010",
+                "city": "Warszawa"
+            },
+            "phone": 100111222,
+            "email": "jacek.jastrzebski@gmail.com",
+            "mother": {
+                "firstName": "Janina",
+                "lastName": "Jastrzębska",
+                "phone": 100111223,
+                "email": "iwona.jastrzebska@gmail.com"
+            },
+            "father": {
+                "firstName": "Jakub",
+                "lastName": "Jastrzębski",
+                "phone": 100111223,
+                "email": "jakub.jastrzebski@gmail.com"
+            }
+        },
+        {
+            "id": 11,
+            "lastName": "Kulesza",
+            "firstName": "Kasia",
+            "marks": [5, 5, 5, 5],
+            "weights": [1, 1, 2, 3],
+            "descriptions": ["Praca Domowa", "Praca Domowa", "Kartkówka", "Klasówka"],
+            "dates": ["02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00"],
+            "pesel": 90010100007,
+            "street": {
+                "name": "Sezamkowa",
+                "nr": 11,
+                "flat": 11,
+                "postcode": "00-011",
+                "city": "Warszawa"
+            },
+            "phone": 111333555,
+            "email": "kasia.kulesza@gmail.com",
+            "mother": {
+                "firstName": "Kamila",
+                "lastName": "Kulesza",
+                "phone": 111333556,
+                "email": "kamila.kulesza@gmail.com"
+            },
+            "father": {
+                "firstName": "Kuba",
+                "lastName": "Kulesza",
+                "phone": 111333557,
+                "email": "kuba.kulesza@gmail.com"
+            }
+        },
+        {
+            "id": 12,
+            "lastName": "Lemańska",
+            "firstName": "Laura",
+            "marks": [5, 4, 5, 5],
+            "weights": [1, 1, 2, 3],
+            "descriptions": ["Praca Domowa", "Praca Domowa", "Kartkówka", "Klasówka"],
+            "dates": ["02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00"],
+            "pesel": 90010100009,
+            "street": {
+                "name": "Sezamkowa",
+                "nr": 12,
+                "flat": 12,
+                "postcode": "00-012",
+                "city": "Warszawa"
+            },
+            "phone": 222444676,
+            "email": "laura.lemańska@gmail.com",
+            "mother": {
+                "firstName": "Luiza",
+                "lastName": "Lemańska",
+                "phone": 222444677,
+                "email": "luiza.lemanska@gmail.com"
+            },
+            "father": {
+                "firstName": "Lucjusz",
+                "lastName": "Lemański",
+                "phone": 222444678,
+                "email": "lucjusz.lemanski@gmail.com"
+            }
+        },
+        {
+            "id": 13,
+            "lastName": "Mkbewe",
+            "firstName": "Matylda",
+            "marks": [4, 3, 4, 4],
+            "weights": [1, 1, 2, 3],
+            "descriptions": ["Praca Domowa", "Praca Domowa", "Kartkówka", "Klasówka"],
+            "dates": ["02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00"],
+            "pesel": 90010100011,
+            "street": {
+                "name": "Sezamkowa",
+                "nr": 13,
+                "flat": 13,
+                "postcode": "00-013",
+                "city": "Warszawa"
+            },
+            "phone": 333555777,
+            "email": "matylda.mkbewe@gmail.com",
+            "mother": {
+                "firstName": "Monika",
+                "lastName": "Mkbewe",
+                "phone": 333555778,
+                "email": "monika.mkbewe@gmail.com"
+            },
+            "father": {
+                "firstName": "Marian",
+                "lastName": "Mkbewe",
+                "phone": 333555779,
+                "email": "marian.mkbewe@gmail.com"
+            }
+        },
+        {
+            "id": 14,
+            "lastName": "Nykiel",
+            "firstName": "Natalia",
+            "marks": [4, 4, 5, 4],
+            "weights": [1, 1, 2, 3],
+            "descriptions": ["Praca Domowa", "Praca Domowa", "Kartkówka", "Klasówka"],
+            "dates": ["02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00"],
+            "pesel": 90010100013,
+            "street": {
+                "name": "Sezamkowa",
+                "nr": 14,
+                "flat": 14,
+                "postcode": "00-014",
+                "city": "Warszawa"
+            },
+            "phone": 444676888,
+            "email": "natalia.nykiel@gmail.com",
+            "mother": {
+                "firstName": "Natasza",
+                "lastName": "Nykiel",
+                "phone": 444676889,
+                "email": "natasza.nykiel@gmail.com"
+            },
+            "father": {
+                "firstName": "Norbert",
+                "lastName": "Nykiel",
+                "phone": 444676890,
+                "email": "norbert.nykiel@gmail.com"
+            }
+        },
+        {
+            "id": 15,
+            "lastName": "Opona",
+            "firstName": "Oliwier",
+            "marks": [2, 4, 3, 3],
+            "weights": [1, 1, 2, 3],
+            "descriptions": ["Praca Domowa", "Praca Domowa", "Kartkówka", "Klasówka"],
+            "dates": ["02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00"],
+            "pesel": 90010100016,
+            "street": {
+                "name": "Sezamkowa",
+                "nr": 15,
+                "flat": 15,
+                "postcode": "00-015",
+                "city": "Warszawa"
+            },
+            "phone": 555777999,
+            "email": "oliwier.opona@gmail.com",
+            "mother": {
+                "firstName": "Oliwia",
+                "lastName": "Opona",
+                "phone": 555777990,
+                "email": "oliwia.opona@gmail.com"
+            },
+            "father": {
+                "firstName": "Olaf",
+                "lastName": "Opona",
+                "phone": 555777991,
+                "email": "olaf.opona@gmail.com"
+            }
+        },
+        {
+            "id": 16,
+            "lastName": "Prot",
+            "firstName": "Patryk",
+            "marks": [2, 3, 4, 3],
+            "weights": [1, 1, 2, 3],
+            "descriptions": ["Praca Domowa", "Praca Domowa", "Kartkówka", "Klasówka"],
+            "dates": ["02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00"],
+            "pesel": 90010100018,
+            "street": {
+                "name": "Sezamkowa",
+                "nr": 16,
+                "flat": 16,
+                "postcode": "00-016",
+                "city": "Warszawa"
+            },
+            "phone": 676888000,
+            "email": "patryk.prot@gmail.com",
+            "mother": {
+                "firstName": "Patrycja",
+                "lastName": "Prot",
+                "phone": 676888001,
+                "email": "patrycja.prot@gmail.com"
+            },
+            "father": {
+                "firstName": "Piotr",
+                "lastName": "Prot",
+                "phone": 676888002,
+                "email": "piotr.prot@gmail.com"
+            }
+        },
+        {
+            "id": 17,
+            "lastName": "Rarytas",
+            "firstName": "Ryszard",
+            "marks": [2, 3, 3, 3],
+            "weights": [1, 1, 2, 3],
+            "descriptions": ["Praca Domowa", "Praca Domowa", "Kartkówka", "Klasówka"],
+            "dates": ["02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00"],
+            "pesel": 90010100020,
+            "street": {
+                "name": "Sezamkowa",
+                "nr": 17,
+                "flat": 17,
+                "postcode": "00-017",
+                "city": "Warszawa"
+            },
+            "phone": 777999111,
+            "email": "ryszard.rarytas@gmail.com",
+            "mother": {
+                "firstName": "Roksana",
+                "lastName": "Rarytas",
+                "phone": 777999113,
+                "email": "roksana.rarytas@gmail.com"
+            },
+            "father": {
+                "firstName": "Robert",
+                "lastName": "Rarytas",
+                "phone": 777999115,
+                "email": "robert.rarytas@gmail.com"
+            }
+        },
+        {
+            "id": 18,
+            "lastName": "Stonoga",
+            "firstName": "Szymon",
+            "marks": [1, 1, 4, 1],
+            "weights": [2, 1, 2, 3],
+            "descriptions": ["Kartkówka", "Praca Domowa", "Kartkówka", "Klasówka"],
+            "dates": ["02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00"],
+            "pesel": 90010100022,
+            "street": {
+                "name": "Sezamkowa",
+                "nr": 18,
+                "flat": 18,
+                "postcode": "00-018",
+                "city": "Warszawa"
+            },
+            "phone": 888000222,
+            "email": "szymon.stonoga@gmail.com",
+            "mother": {
+                "firstName": "Sara",
+                "lastName": "Stonoga",
+                "phone": 888000223,
+                "email": "sara.stonoga@gmail.com"
+            },
+            "father": {
+                "firstName": "Sławomir",
+                "lastName": "Stonoga",
+                "phone": 888000224,
+                "email": "slawomir.stonoga@gmail.com"
+            }
+        },
+        {
+            "id": 19,
+            "lastName": "Torpeda",
+            "firstName": "Tadeusz",
+            "marks": [2, 2, 3],
+            "weights": [3, 1, 2],
+            "descriptions": ["Klasówka", "Praca Domowa", "Kartkówka"],
+            "dates": ["02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00"],
+            "pesel": 90010100024,
+            "street": {
+                "name": "Sezamkowa",
+                "nr": 19,
+                "flat": 19,
+                "postcode": "00-019",
+                "city": "Warszawa"
+            },
+            "phone": 999111333,
+            "email": "tadeusz.torpeda@gmail.com",
+            "mother": {
+                "firstName": "Tamara",
+                "lastName": "Torpeda",
+                "phone": 999111334,
+                "email": "tamara.torpeda@gmail.com"
+            },
+            "father": {
+                "firstName": "Tomasz",
+                "lastName": "Torpeda",
+                "phone": 999111335,
+                "email": "tomasz.torpeda@gmail.com"
+            }
+        },
+        {
+            "id": 20,
+            "lastName": "Ukwiał",
+            "firstName": "Urszula",
+            "marks": [3, 3, 3, 4],
+            "weights": [1, 1, 2, 3],
+            "descriptions": ["Praca Domowa", "Praca Domowa", "Kartkówka", "Klasówka"],
+            "dates": ["02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00"],
+            "pesel": 90010100015,
+            "street": {
+                "name": "Sezamkowa",
+                "nr": 20,
+                "flat": 20,
+                "postcode": "00-020",
+                "city": "Warszawa"
+            },
+            "phone": 100222444,
+            "email": "urszula.ukwial@gmail.com",
+            "mother": {
+                "firstName": "Ulryka",
+                "lastName": "Ukwiał",
+                "phone": 100222445,
+                "email": "ulryka.ukwial@gmail.com"
+            },
+            "father": {
+                "firstName": "Ulrych",
+                "lastName": "Ukwiał",
+                "phone": 100222446,
+                "email": "ulrych.ukwial@gmail.com"
+            }
+        },
+        {
+            "id": 21,
+            "lastName": "Walaszek",
+            "firstName": "Witold",
+            "marks": [2, 1, 5, 3],
+            "weights": [1, 1, 2, 3],
+            "descriptions": ["Praca Domowa", "Praca Domowa", "Kartkówka", "Klasówka"],
+            "dates": ["02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00"],
+            "pesel": 90010100026,
+            "street": {
+                "name": "Sezamkowa",
+                "nr": 21,
+                "flat": 21,
+                "postcode": "00-021",
+                "city": "Warszawa"
+            },
+            "phone": 111444777,
+            "email": "witold.walaszek@gmail.com",
+            "mother": {
+                "firstName": "Wanda",
+                "lastName": "Walaszek",
+                "phone": 111444778,
+                "email": "wanda.walaszek@gmail.com"
+            },
+            "father": {
+                "firstName": "Wiesław",
+                "lastName": "Walaszek",
+                "phone": 111444779,
+                "email": "wieslaw.walaszek@gmail.com"
+            }
+        },
+        {
+            "id": 22,
+            "lastName": "Zagłoba",
+            "firstName": "Zbigniew",
+            "marks": [3, 2, 2],
+            "weights": [3, 3, 1],
+            "descriptions": ["Klasówka", "Klasówka", "Praca Domowa"],
+            "dates": ["02.05.2020 12:00:00", "02.05.2020 12:00:00", "02.05.2020 12:00:00"],
+            "pesel": 90010100028,
+            "street": {
+                "name": "Sezamkowa",
+                "nr": 22,
+                "flat": 22,
+                "postcode": "00-022",
+                "city": "Warszawa"
+            },
+            "phone": 222555888,
+            "email": "zbigniew.zagloba@gmail.com",
+            "mother": {
+                "firstName": "Zosia",
+                "lastName": "Zagłoba",
+                "phone": 222555889,
+                "email": "zosia.zagloba@gmail.com"
+            },
+            "father": {
+                "firstName": "Zenon",
+                "lastName": "Zagłoba",
+                "phone": 222555880,
+                "email": "zenon.zagloba@gmail.com"
+            }
+        }
+      ]
+}
